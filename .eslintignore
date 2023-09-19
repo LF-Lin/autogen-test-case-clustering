@@ -1,0 +1,9 @@
+.github
+.nyc_output/
+dist/
+docs/
+logs/
+node_modules/
+.*
+*.json
+*.md

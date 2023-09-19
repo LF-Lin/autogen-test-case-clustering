@@ -1,0 +1,22 @@
+{
+    "classUnderTest": {
+        "name": "Queue",
+        "sourceCodeDir": "./assets/classUnderTest/",
+        "instrumentedSourceCodeDir": "./assets/classUnderTest/",
+        "instrumentedSourceCodeFormat": ".inst.js"
+    },
+    "testSuite": {
+        "rawTestSuiteDir": "./assets/testSuites/",
+        "rawTestSuiteFormat": ".spec.js",
+        "processedTestSuiteDir": "./results/testSuites/",
+        "processedTestSuiteFormat": ".preprocessed.spec.js",
+        "descriptiveTestSuitePath": ".renamed.spec.js",
+        "clusteredTestSuiteDir": "./results/clusteredTestSuites/",
+        "clusteredTestSuiteFormat": ".clustering.spec.js"
+    },
+    "executionTraceDir": "./results/executionTraces/",
+    "python": {
+        "envPath": "./scripts/venv/bin/python",
+        "scriptPath": "./scripts/clustering.py"
+    }
+}

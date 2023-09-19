@@ -1,0 +1,5 @@
+numpy==1.24.1
+scikit_learn==1.2.0
+tensorflow==2.13.0
+tensorflow_macos==2.13.0
+yellowbrick==1.5
